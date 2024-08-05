@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Loginpage = () => {
   return (
     <>
-    <div className="flex h-screen bg-gradient-to-r from-purple-900 via-blue-900 to-purple-900  items-center justify-center">
-        <div className="flex transition ease-in-out shadow-[0_0px_50px_0px_rgb(0,0,0,0.3)] flex-col bg-gradient-to-b  from-slate-400 to-slate-300 rounded-3xl h-96 w-96 items-center justify-center">
+    <div className="flex h-full min-h-screen bg-gradient-to-r from-purple-900 via-blue-900 to-purple-900  items-center justify-center">
+        <div className="flex shadow-[0_0px_50px_0px_rgb(0,0,0,0.3)] flex-col bg-gradient-to-b  from-slate-400 to-slate-300 rounded-3xl h-96 w-96 items-center justify-center">
             <div><form>
                 <input className=" px-2 w-60 h-8 rounded-lg shadow-[0_0px_20px_0px_rgb(0,0,0,0.3)]" type="email" placeholder="Email" name="Email"/>
                 <p><br/></p>
